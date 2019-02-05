@@ -55,4 +55,4 @@ app.post("/api/upload", (req, res) => {
 
 
 
-app.listen(config.port, () => console.log(`Server Listen in port ${config.port}`));
+app.listen(config.PORT, () => console.log(`Server Listen in port ${config.PORT}`));
